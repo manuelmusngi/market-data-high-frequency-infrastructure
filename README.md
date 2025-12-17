@@ -1,8 +1,9 @@
 #### Market Data Parser
 
-This project is a practice in C++ development in C++20 system for high-frequency trading infrastructure, backed by academic research and practical engineering insights.
+This project is a development practice in C++20 system for high-frequency trading infrastructure, backed by academic research and practical engineering insights.
 
-🚀 Highlights
+🚀 Highlights/
+
 Ultra-low latency design: Capable of handling millions of messages per second with nanosecond-level latency.
 
 Modern C++20 features: Utilizes concepts, constexpr, atomics, and structured bindings for clean, efficient code.
@@ -19,7 +20,8 @@ Observability: Built-in metrics, histograms, and benchmarking tools to measure t
 
 Reproducibility: Clear project structure, unit tests, fuzzing, and synthetic feed replayers for validation.
 
-🔑 Key Takeaways
+🔑 Key Takeaways/
+
 Serialization optimization matters: Zero-copy parsing and compile-time layouts drastically reduce overhead.
 
 Networked I/O is the bottleneck: Kernel-bypass (AF_XDP/DPDK) is essential for nanosecond-level performance.
