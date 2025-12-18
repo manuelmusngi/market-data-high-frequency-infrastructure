@@ -39,6 +39,7 @@ Benchmarking is non-negotiable: Micro-benchmarks and synthetic replayers validat
 Documentation is part of engineering: Architecture diagrams, tuning guides, and reproducible configs make the system usable by collaborators.
 
 ---
+<img width="284" height="319" alt="image" src="https://github.com/user-attachments/assets/5a0783d5-17b6-467c-9a30-a0c620773cac" />
 Project Architecture
 
 market-data-parser/\
