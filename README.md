@@ -92,7 +92,7 @@ market-data-parser/\
 └─ docs/\
    ├─ architecture.md\
    ├─ performance.md\
-   └─ ops_tuning.md\
+   └─ ops_tuning.md
 
 
 📚 References & Research Papers
