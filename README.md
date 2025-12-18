@@ -4,6 +4,8 @@ This is a production-style, modular C++20 project that demonstrates systems prog
 
 This project is a development practice in C++20 system for high-frequency trading infrastructure, backed by academic research and practical engineering insights.
 
+--
+
 🚀 Highlights
 
 Ultra-low latency design: Capable of handling millions of messages per second with nanosecond-level latency.
@@ -22,6 +24,8 @@ Observability: Built-in metrics, histograms, and benchmarking tools to measure t
 
 Reproducibility: Clear project structure, unit tests, fuzzing, and synthetic feed replayers for validation.
 
+--
+
 🔑 Key Takeaways
 
 Serialization optimization matters: Zero-copy parsing and compile-time layouts drastically reduce overhead.
@@ -35,6 +39,65 @@ NUMA and CPU affinity are critical: Pinning threads and aligning memory allocati
 Benchmarking is non-negotiable: Micro-benchmarks and synthetic replayers validate performance claims and guide tuning.
 
 Documentation is part of engineering: Architecture diagrams, tuning guides, and reproducible configs make the system usable by collaborators.
+
+--
+
+Project Architecture
+market-data-parser/
+├─ CMakeLists.txt
+├─ cmake/
+│  └─ toolchains/clang-libc++.cmake
+├─ config/
+│  ├─ mdp.toml
+│  └─ feeds/
+│     ├─ feed_itch.toml
+│     └─ feed_fema.toml
+├─ include/
+│  ├─ mdp/
+│  │  ├─ core.hpp
+│  │  ├─ net.hpp
+│  │  ├─ ring.hpp
+│  │  ├─ pool.hpp
+│  │  ├─ time.hpp
+│  │  ├─ parse.hpp
+│  │  ├─ models.hpp
+│  │  ├─ dispatch.hpp
+│  │  ├─ metrics.hpp
+│  │  └─ pinning.hpp
+├─ src/
+│  ├─ main.cpp
+│  ├─ core.cpp
+│  ├─ net_af_xdp.cpp
+│  ├─ net_dpdk.cpp
+│  ├─ net_sock.cpp
+│  ├─ parse_itch.cpp
+│  ├─ parse_fema.cpp
+│  ├─ dispatch.cpp
+│  ├─ metrics.cpp
+│  └─ time.cpp
+├─ tools/
+│  ├─ replayer.cpp
+│  ├─ pcap_to_ring.cpp
+│  └─ gen_synth_feed.cpp
+├─ bench/
+│  ├─ micro_parse.cpp
+│  ├─ throughput.cpp
+│  └─ latency.cpp
+├─ tests/
+│  ├─ unit_ring.cpp
+│  ├─ unit_pool.cpp
+│  ├─ unit_parse.cpp
+│  └─ fuzz_parse.cpp
+├─ scripts/
+│  ├─ run_bench.sh
+│  ├─ cpu_pinning.sh
+│  └─ perf_record.sh
+└─ docs/
+   ├─ architecture.md
+   ├─ performance.md
+   └─ ops_tuning.md
+
+--
 
 📚 References & Research Papers
 
