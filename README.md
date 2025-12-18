@@ -104,8 +104,6 @@ market-data-parser/\
 
 [Network Design Considerations for Trading Systems SIGCOMM HotNets 2024 — Discusses specialized low-latency network architectures for algorithmic trading](https://conferences.sigcomm.org/hotnets/2024/papers/hotnets24-262.pdf)
 
-[No Cords Attached: Coordination-Free Concurrent Lock-Free Queues Yusuf Motiwala — Introduces Cyclic Memory Protection (CMP) for scalable lock-free queues](https://arxiv.org/pdf/2511.09410)
-
 [BQ: A Lock-Free Queue with Batching Explores batching techniques to improve throughput in concurrent queues](https://csaws.cs.technion.ac.il/~erez/Papers/bq-topc.pdf)
 
 
