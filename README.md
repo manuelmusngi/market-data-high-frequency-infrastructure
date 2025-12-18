@@ -23,8 +23,7 @@ Observability: Built-in metrics, histograms, and benchmarking tools to measure t
 
 Reproducibility: Clear project structure, unit tests, fuzzing, and synthetic feed replayers for validation.
 
-
-
+---
 🔑 Key Takeaways
 
 Serialization optimization matters: Zero-copy parsing and compile-time layouts drastically reduce overhead.
@@ -39,6 +38,7 @@ Benchmarking is non-negotiable: Micro-benchmarks and synthetic replayers validat
 
 Documentation is part of engineering: Architecture diagrams, tuning guides, and reproducible configs make the system usable by collaborators.
 
+---
 Project Architecture
 
 market-data-parser/\
@@ -95,7 +95,7 @@ market-data-parser/\
    ├─ performance.md\
    └─ ops_tuning.md
 
-
+---
 📚 References & Research Papers
 
 [C++ Design Patterns for Low-latency Applications Including High-frequency Trading](https://arxiv.org/abs/2309.04259)
