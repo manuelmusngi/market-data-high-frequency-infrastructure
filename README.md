@@ -100,14 +100,14 @@ market-data-parser/
 
 📚 References & Research Papers
 
-C++ Design Patterns for Low-latency Applications Including High-frequency Trading Paul Bilokon, Burak Gunduz — arXiv:2309.04259 Read here
+[C++ Design Patterns for Low-latency Applications Including High-frequency Trading](https://arxiv.org/abs/2309.04259)
 
-High-Frequency Trading in C++26: Nanosecond Latency Optimization Practical techniques for pushing latency below microseconds using modern C++ features. (https://arxiv.org/abs/2309.04259)
+[High-Frequency Trading in C++26: Nanosecond Latency Optimization Practical techniques for pushing latency below microseconds using modern C++ features](https://markaicode.com/cpp26-high-frequency-trading-latency-optimization/)
 
-Network Design Considerations for Trading Systems SIGCOMM HotNets 2024 — Discusses specialized low-latency network architectures for algorithmic trading. (https://conferences.sigcomm.org/hotnets/2024/papers/hotnets24-262.pdf)
+[Network Design Considerations for Trading Systems SIGCOMM HotNets 2024 — Discusses specialized low-latency network architectures for algorithmic trading](https://conferences.sigcomm.org/hotnets/2024/papers/hotnets24-262.pdf)
 
-No Cords Attached: Coordination-Free Concurrent Lock-Free Queues Yusuf Motiwala — Introduces Cyclic Memory Protection (CMP) for scalable lock-free queues. (https://arxiv.org/pdf/2511.09410)
+[No Cords Attached: Coordination-Free Concurrent Lock-Free Queues Yusuf Motiwala — Introduces Cyclic Memory Protection (CMP) for scalable lock-free queues](https://arxiv.org/pdf/2511.09410)
 
-BQ: A Lock-Free Queue with Batching Explores batching techniques to improve throughput in concurrent queues. (https://csaws.cs.technion.ac.il/~erez/Papers/bq-topc.pdf)
+[BQ: A Lock-Free Queue with Batching Explores batching techniques to improve throughput in concurrent queues](https://csaws.cs.technion.ac.il/~erez/Papers/bq-topc.pdf)
 
 
