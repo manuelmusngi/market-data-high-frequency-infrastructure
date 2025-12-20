@@ -1,0 +1,80 @@
+# ============================================================================
+# Market Data Parser - Global Configuration
+# ============================================================================
+
+[app]
+name        = "market-data-parser"
+environment = "production"   # development | staging | production
+log_level   = "info"          # trace | debug | info | warn | error
+
+# ----------------------------------------------------------------------------
+# Threading & CPU Affinity
+# ----------------------------------------------------------------------------
+[threads]
+rx_threads       = 2
+parse_threads    = 4
+consumer_threads = 2
+
+# Explicit CPU pinning (recommended for low latency)
+# Order: RX → Parse → Consumer
+cpu_affinity = [0, 1, 2, 3, 4, 5, 6, 7]
+
+# Busy-spin behavior
+spin_pause = true     # use _mm_pause() in spin loops
+yield_after_us = 0    # 0 = never yield (pure busy spin)
+
+# ----------------------------------------------------------------------------
+# Networking
+# ----------------------------------------------------------------------------
+[network]
+mode = "AF_XDP"       # AF_XDP | DPDK | SOCKET
+mtu  = 2048
+
+# Socket fallback settings
+[network.socket]
+recv_buffer_bytes = 134217728   # 128 MB
+reuse_port        = true
+non_blocking      = true
+
+# AF_XDP settings
+[network.af_xdp]
+interface       = "eth0"
+queue_count     = 2
+zero_copy       = true
+xdp_prog_mode   = "native"      # native | skb
+umem_frame_size = 2048
+umem_frame_count = 262144
+
+# DPDK settings
+[network.dpdk]
+pci_devices = ["0000:01:00.0"]
+rx_queues   = 2
+tx_queues   = 0
+hugepages   = true
+lcore_mask  = "0x0F"
+
+# ----------------------------------------------------------------------------
+# Memory Management
+# ----------------------------------------------------------------------------
+[memory]
+ring_size_pow2 = 65536
+pool_size_pow2 = 32768
+numa_aware     = true
+prefault_pages = true
+
+# ----------------------------------------------------------------------------
+# Timing
+# ----------------------------------------------------------------------------
+[time]
+clock_source = "tsc"     # tsc | steady
+calibrate_ms = 100
+use_nic_ts   = false
+
+# ----------------------------------------------------------------------------
+# Metrics & Observability
+# ----------------------------------------------------------------------------
+[metrics]
+enabled          = true
+report_interval  = 1.0    # seconds
+track_histograms = true
+histogram_bins   = 1024
