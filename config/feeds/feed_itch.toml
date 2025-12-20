@@ -1,0 +1,59 @@
+# ============================================================================
+# NASDAQ ITCH Feed Configuration
+# ============================================================================
+
+[feed]
+name        = "NASDAQ_ITCH"
+protocol    = "ITCH"
+enabled     = true
+source_type = "multicast"   # multicast | unicast | replay
+
+# ----------------------------------------------------------------------------
+# Network Source
+# ----------------------------------------------------------------------------
+[network]
+multicast_group = "233.54.12.34"
+port            = 12345
+interface       = "eth0"
+ttl             = 1
+
+# ----------------------------------------------------------------------------
+# Protocol Settings
+# ----------------------------------------------------------------------------
+[protocol]
+endianness = "big"
+sequence_check = true
+drop_on_gap     = false
+max_message_size = 64
+
+# ----------------------------------------------------------------------------
+# Message Types
+# ----------------------------------------------------------------------------
+[messages]
+enabled = [
+  "AddOrder",
+  "ExecuteOrder",
+  "CancelOrder",
+  "DeleteOrder",
+  "Trade"
+]
+
+# Fast‑path parsing (branch‑light)
+fast_path = [
+  "AddOrder",
+  "ExecuteOrder"
+]
+
+# ----------------------------------------------------------------------------
+# Symbol Handling
+# ----------------------------------------------------------------------------
+[symbols]
+symbol_map_file = "symbols/nasdaq_symbols.csv"
+symbol_id_bits  = 32
+
+# ----------------------------------------------------------------------------
+# Validation
+# ----------------------------------------------------------------------------
+[validation]
+strict_length_check = true
+checksum_enabled    = false
