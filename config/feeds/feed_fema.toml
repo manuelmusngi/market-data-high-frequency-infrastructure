@@ -1,0 +1,59 @@
+# ============================================================================
+# FEMA / CME Binary Feed Configuration
+# ============================================================================
+
+[feed]
+name        = "FEMA_BINARY"
+protocol    = "FEMA"
+enabled     = true
+source_type = "unicast"
+
+# ----------------------------------------------------------------------------
+# Network Source
+# ----------------------------------------------------------------------------
+[network]
+host = "239.10.10.10"
+port = 15000
+interface = "eth1"
+
+# ----------------------------------------------------------------------------
+# Protocol Settings
+# ----------------------------------------------------------------------------
+[protocol]
+endianness = "little"
+schema_version = 3
+template_id_bits = 16
+sequence_check  = true
+allow_recovery  = true
+
+# ----------------------------------------------------------------------------
+# Message Types
+# ----------------------------------------------------------------------------
+[messages]
+enabled = [
+  "OrderAdd",
+  "OrderModify",
+  "OrderCancel",
+  "TradeSummary",
+  "MarketSnapshot"
+]
+
+fast_path = [
+  "OrderAdd",
+  "OrderModify"
+]
+
+# ----------------------------------------------------------------------------
+# Snapshot & Recovery
+# ----------------------------------------------------------------------------
+[recovery]
+snapshot_enabled = true
+snapshot_interval_sec = 60
+replay_on_gap = true
+
+# ----------------------------------------------------------------------------
+# Validation
+# ----------------------------------------------------------------------------
+[validation]
+strict_schema_check = true
+drop_unknown_templates = true
