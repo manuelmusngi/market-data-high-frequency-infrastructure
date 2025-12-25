@@ -116,4 +116,11 @@ market-data-parser/\
 
 [BQ: A Lock-Free Queue with Batching Explores batching techniques to improve throughput in concurrent queues](https://csaws.cs.technion.ac.il/~erez/Papers/bq-topc.pdf)
 
+---
+#### License
+This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
+
+
+
+
 
