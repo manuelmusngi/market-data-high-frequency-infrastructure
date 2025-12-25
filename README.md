@@ -3,14 +3,14 @@
 This project is a development in C++ for high-frequency trading infrastructure, backed by academic research and practical engineering insights.
 
 The project is an exercise in development of a production-style, modular C++20 project that demonstrates 
-     - systems programming, 
-     - algorithms/data structures,
-     - multithreading, 
-     - networked I/O, 
-     - serialization, 
-     - CPU-aware engineering, 
-     - kernel-level considerations, and 
-     - compilers. 
+     - - systems programming, 
+     - - algorithms/data structures,
+     - - multithreading, 
+     - - networked I/O, 
+     - - serialization, 
+     - - CPU-aware engineering, 
+     - - kernel-level considerations, and 
+     - - compilers. 
 
 It includes message parsers and feed handlers for direct venue market data (UDP multicast, TCP, ITCH/FIX-like parsing), with clean interfaces and testable components.
 
