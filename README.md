@@ -62,7 +62,7 @@ market-data-parser/\
 │     └─ feed_fema.toml\
 ├─ include/\
 │  ├─ mdp/\
-│  │  ├─ (core.hpp)[https://github.com/manuelmusngi/qr-market-data-parser-high-frequency-infrastructure/blob/main/include/mdp/core.hpp]\
+│  │  ├─ [core.hpp](https://github.com/manuelmusngi/qr-market-data-parser-high-frequency-infrastructure/blob/main/include/mdp/core.hpp)\
 │  │  ├─ net.hpp\
 │  │  ├─ ring.hpp\
 │  │  ├─ pool.hpp\
