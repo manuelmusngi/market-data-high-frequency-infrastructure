@@ -52,7 +52,7 @@ It includes message parsers and feed handlers for direct venue market data (UDP 
 <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5a0783d5-17b6-467c-9a30-a0c620773cac" /> Project Architecture
 
 market-data-parser/\
-├─ CMakeLists.txt\
+├─ [CMakeLists.txt](https://github.com/manuelmusngi/qr-market-data-parser-high-frequency-infrastructure/blob/main/CMakeLists.txt)\
 ├─ cmake/\
 │  └─ toolchains/clang-libc++.cmake\
 ├─ config/\
