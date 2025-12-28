@@ -57,7 +57,7 @@ market-data-parser/\
 ├─ cmake/\
 │  └─ [toolchains/clang-libc++.cmake](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/cmake/toolchains/clang-libc%2B%2B.cmake)\
 ├─ config/\
-│  ├─ mdp.toml\
+│  ├─ [mdp.toml](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/config/mdp.toml)\
 │  └─ feeds/\
 │     ├─ feed_itch.toml\
 │     └─ feed_fema.toml\
