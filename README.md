@@ -2,7 +2,8 @@
 
 This project is a development in C++ for high-frequency trading infrastructure, backed by academic research and practical engineering insights.
 
-The project is an exercise in development of a production-style, modular C++20 project that demonstrates: 
+The project is an exercise in development of a production-style, modular C++20 that demonstrates: 
+
 - systems programming 
 - algorithms/data structures
 - multithreading 
