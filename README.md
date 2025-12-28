@@ -54,7 +54,7 @@ It includes message parsers and feed handlers for direct venue market data (UDP 
 market-data-parser/\
 ├─ [CMakeLists.txt](https://github.com/manuelmusngi/qr-market-data-parser-high-frequency-infrastructure/blob/main/CMakeLists.txt)\
 ├─ cmake/\
-│  └─ toolchains/clang-libc++.cmake\
+│  └─ [toolchains/clang-libc++.cmake](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/cmake/toolchains/clang-libc%2B%2B.cmake)\
 ├─ config/\
 │  ├─ mdp.toml\
 │  └─ feeds/\
