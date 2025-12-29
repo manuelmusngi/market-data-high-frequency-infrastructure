@@ -60,7 +60,7 @@ market-data-parser/\
 │  ├─ [mdp.toml](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/config/mdp.toml)\
 │  └─ feeds/\
 │     ├─ [feed_itch.toml](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/config/feeds/feed_itch.toml)\
-│     └─ feed_fema.toml\
+│     └─ [feed_fema.toml](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/config/feeds/feed_fema.toml)\
 ├─ include/\
 │  ├─ mdp/\
 │  │  ├─ [core.hpp](https://github.com/manuelmusngi/qr-market-data-parser-high-frequency-infrastructure/blob/main/include/mdp/core.hpp)\
