@@ -59,7 +59,7 @@ market-data-parser/\
 ├─ config/\
 │  ├─ [mdp.toml](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/config/mdp.toml)\
 │  └─ feeds/\
-│     ├─ feed_itch.toml\
+│     ├─ [feed_itch.toml](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/config/feeds/feed_itch.toml)\
 │     └─ feed_fema.toml\
 ├─ include/\
 │  ├─ mdp/\
