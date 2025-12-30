@@ -70,7 +70,7 @@ market-data-parser/\
 │  │  ├─ [time.hpp](https://github.com/manuelmusngi/qr-market-data-parser-high-frequency-infrastructure/blob/main/include/mdp/time.hpp)\
 │  │  ├─ [parse.hpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/include/mdp/parse.hpp)\
 │  │  ├─ [models.hpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/include/mdp/models.hpp)\
-│  │  ├─ dispatch.hpp\
+│  │  ├─ [dispatch.hpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/include/mdp/dispatch.hpp)\
 │  │  ├─ metrics.hpp\
 │  │  └─ pinning.hpp\
 ├─ src/\
