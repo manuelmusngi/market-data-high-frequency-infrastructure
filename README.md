@@ -72,7 +72,7 @@ market-data-parser/\
 │  │  ├─ [models.hpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/include/mdp/models.hpp)\
 │  │  ├─ [dispatch.hpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/include/mdp/dispatch.hpp)\
 │  │  ├─ [metrics.hpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/include/mdp/metrics.hpp)\
-│  │  └─ pinning.hpp\
+│  │  └─ [pinning.hpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/include/mdp/pinning.hpp)\
 ├─ src/\
 │  ├─ main.cpp\
 │  ├─ core.cpp\
