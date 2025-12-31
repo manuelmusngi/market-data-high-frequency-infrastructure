@@ -75,7 +75,7 @@ market-data-parser/\
 │  │  └─ [pinning.hpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/include/mdp/pinning.hpp)\
 ├─ src/\
 │  ├─ [main.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/main.cpp)\
-│  ├─ core.cpp\
+│  ├─ [core.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/core.cpp)\
 │  ├─ net_af_xdp.cpp\
 │  ├─ net_dpdk.cpp\
 │  ├─ net_sock.cpp\
