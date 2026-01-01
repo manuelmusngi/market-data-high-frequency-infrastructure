@@ -80,7 +80,7 @@ market-data-parser/\
 │  ├─ [net_dpdk.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/net_dpdk.cpp)\
 │  ├─ [net_sock.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/net_sock.cpp)\
 │  ├─ [parse_itch.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/parse_itch.cpp)\
-│  ├─ parse_fema.cpp\
+│  ├─ [parse_fema.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/parse_fema.cpp)\
 │  ├─ dispatch.cpp\
 │  ├─ metrics.cpp\
 │  └─ time.cpp\
