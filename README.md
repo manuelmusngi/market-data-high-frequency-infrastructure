@@ -77,7 +77,7 @@ market-data-parser/\
 │  ├─ [main.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/main.cpp)\
 │  ├─ [core.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/core.cpp)\
 │  ├─ [net_af_xdp.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/net_af_xdp.cpp)\
-│  ├─ net_dpdk.cpp\
+│  ├─ [net_dpdk.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/net_dpdk.cpp)\
 │  ├─ net_sock.cpp\
 │  ├─ parse_itch.cpp\
 │  ├─ parse_fema.cpp\
