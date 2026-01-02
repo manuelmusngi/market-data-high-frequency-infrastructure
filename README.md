@@ -81,9 +81,9 @@ market-data-parser/\
 │  ├─ [net_sock.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/net_sock.cpp)\
 │  ├─ [parse_itch.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/parse_itch.cpp)\
 │  ├─ [parse_fema.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/parse_fema.cpp)\
-│  ├─ dispatch.cpp\
-│  ├─ metrics.cpp\
-│  └─ time.cpp\
+│  ├─ [dispatch.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/dispatch.cpp)\
+│  ├─ [metrics.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/metrics.cpp)\
+│  └─ [time.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/time.cpp)\
 ├─ tools/\
 │  ├─ replayer.cpp\
 │  ├─ pcap_to_ring.cpp\
