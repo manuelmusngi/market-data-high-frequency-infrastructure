@@ -97,14 +97,10 @@ market-data-parser/\
 │  ├─ unit_pool.cpp\
 │  ├─ unit_parse.cpp\
 │  └─ fuzz_parse.cpp\
-├─ scripts/\
+└─scripts/\
 │  ├─ run_bench.sh\
 │  ├─ cpu_pinning.sh\
 │  └─ perf_record.sh\
-└─ docs/\
-   ├─ architecture.md\
-   ├─ performance.md\
-   └─ ops_tuning.md
 
 ---
 📚 References & Research Papers
