@@ -100,7 +100,7 @@ market-data-parser/\
 └─scripts/\
 │  ├─ run_bench.sh\
 │  ├─ cpu_pinning.sh\
-│  └─ perf_record.sh\
+│  └─ perf_record.sh
 
 ---
 📚 References & Research Papers
