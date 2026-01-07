@@ -91,7 +91,7 @@ market-data-parser/\
 ├─ bench/\
 │  ├─ [micro_parse.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/bench/micro_parse.cpp)\
 │  ├─ [throughput.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/bench/throughput.cpp)\
-│  └─ latency.cpp\
+│  └─ [latency.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/bench/latency.cpp)\
 ├─ tests/\
 │  ├─ unit_ring.cpp\
 │  ├─ unit_pool.cpp\
