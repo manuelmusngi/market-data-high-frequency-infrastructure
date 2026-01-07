@@ -85,7 +85,7 @@ market-data-parser/\
 │  ├─ [metrics.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/metrics.cpp)\
 │  └─ [time.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/src/time.cpp)\
 ├─ tools/\
-│  ├─ replayer.cpp\
+│  ├─ [replayer.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/tools/replayer.cpp)\
 │  ├─ pcap_to_ring.cpp\
 │  └─ gen_synth_feed.cpp\
 ├─ bench/\
