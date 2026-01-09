@@ -97,10 +97,7 @@ market-data-parser/\
 │  ├─ [unit_pool.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/tests/unit_pool.cpp)\
 │  ├─ [unit_parse.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/tests/unit_parse.cpp)\
 │  └─ [fuzz_parse.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/tests/fuzz_parse.cpp)\
-└─scripts/\
-│  ├─ run_bench.sh\
-│  ├─ cpu_pinning.sh\
-│  └─ perf_record.sh
+
 
 ---
 📚 References & Research Papers
