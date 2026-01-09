@@ -95,7 +95,7 @@ market-data-parser/\
 ├─ tests/\
 │  ├─ [unit_ring.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/tests/unit_ring.cpp)\
 │  ├─ [unit_pool.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/tests/unit_pool.cpp)\
-│  ├─ unit_parse.cpp\
+│  ├─ [unit_parse.cpp](https://github.com/manuelmusngi/market-data-parser-high-frequency-infrastructure/blob/main/tests/unit_parse.cpp)\
 │  └─ fuzz_parse.cpp\
 └─scripts/\
 │  ├─ run_bench.sh\
