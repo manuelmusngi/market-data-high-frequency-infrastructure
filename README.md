@@ -1,4 +1,4 @@
-#### System-level C++20 project for market data feeds
+#### System-level C++ project for market data feeds
 
 This project is a development in C++ for high-frequency trading infrastructure, backed by academic research and practical engineering insights.
 
