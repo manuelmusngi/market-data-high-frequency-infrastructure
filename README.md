@@ -50,7 +50,7 @@ It includes message parsers and feed handlers for direct venue market data (UDP 
 - Documentation is part of engineering: Architecture diagrams, tuning guides, and reproducible configs make the system usable by collaborators.
 
 ---
-#### Project Architecture
+🏗️ Project Architecture
 
 market-data-parser/\
 ├─ [CMakeLists.txt](https://github.com/manuelmusngi/qr-market-data-parser-high-frequency-infrastructure/blob/main/CMakeLists.txt)\
